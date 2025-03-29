@@ -16,7 +16,8 @@
         Submit
       </button>
       <div
-        class="w-[400px] bg-white rounded-[6px] absolute top-0 left-[50%] text-[#333] text-center px-[30px] pt-0 pb-[30px] transform -translate-x-1/2 -translate-y-1/2 scale-[0.1] hidden"
+        id="pop"
+        class="w-[400px] bg-white rounded-[6px] absolute top-0 left-[50%] text-[#333] text-center px-[30px] pt-0 pb-[30px] transform -translate-x-1/2 -translate-y-1/2 scale-[0.1] hidden transition-all duration-400 ease-in-out"
       >
         <img
           class="w-[100px] -mt-[50px] rounded-[50%] shadow-[0_2px_5px_rgba(0,0,0,0.2)] place-self-center"
@@ -30,6 +31,7 @@
           Your details has been Successfully Submitted, Thanks!
         </p>
         <button
+          onclick="closePopUp()"
           class="w-full mt-[50px] py-2.5 px-0 bg-[#6fd649] text-white border-0 outline-none text-[18px] rounded-[4px] cursor-pointer shadow-[0_2px_5px_rgba(0,0,0,0.2)]"
         >
           OK
