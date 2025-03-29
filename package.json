@@ -1,0 +1,23 @@
+{
+  "name": "pop-up-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBadarMurtaza/Pop-Up-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBadarMurtaza/Pop-Up-App/issues"
+  },
+  "homepage": "https://github.com/MBadarMurtaza/Pop-Up-App#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  }
+}
